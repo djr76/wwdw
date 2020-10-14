@@ -1,11 +1,8 @@
 body {
     background-color: #000000;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'EB Garamond', serif;
     text-align: center;
-}
-
-h1 {
-    opacity: 0;
+    color: #fff;
 }
 
 h4 {
@@ -32,17 +29,25 @@ h4 {
     color: #fff;
 }
 
-
 /* Title-Section*/
 
 .title-section {
     background-color: #b22222;
 }
 
+.h1-title {
+    opacity: 0;
+}
+
 #h1-titleLg1 {
     font-family: 'Fredoka One', cursive;
     font-size: 6.5rem;
     color: #b22222;
+    opacity: 0;
+}
+
+#h1-titleLg2 {
+    opacity: 0;
 }
 
 #h1-titleLg2 a {
@@ -82,101 +87,85 @@ h4 {
     font-family: 'Fredoka One', cursive;
 }
 
-
-
-
-
 /* TopHome Section */
 
-.h2-title{
+.topHome-section {
+    position: relative;
+}
+
+.h2-title {
     font-family: 'Dancing Script', cursive;
     margin-bottom: 0rem;
-    font-size: 3.5rem;
+    font-size: 4.2rem;
     color: #b22222;
-    opacity: 1;
     text-align: left;
     margin-left: 60px;
 }
 
-.navbar{
-    font-size: 1.8rem;
-    font-family: 'Dancing Script', cursive;
-    align-content: center;
-    text-align: center;
-    
+.navbar {
+    font-size: 2.1rem;
+    font-family: 'EB Garamond', serif;
+    align-content: right;
+    text-align: right;
+}
+
+.navbar-nav>li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-collapse {
+    align-content: right;
+    text-align: right;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #b22222;
 }
 
-.bar{
+.bar {
     align-items;
 }
 
 video {
     position: relative;
-    pointer-events: none;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center;
-    object-position: center;
-}
-
-.video-container {
-    position: absolute;
     top: 0;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
 }
-
-.video_container {
-    z-index: 0;
-}
-
-.nav_container {
-    z-index: 1;
-    align-content: top;
-}
-
-.container{
-    max-width: 100%;
-    height: 100%;
-}
-
-
 
 /* Features Section */
 
-.feature-section {
+#features {
     color: #fff;
-    background-color: #030303;
+    background-color: gray;
+    margin-top: 100px;
     padding: 5% 2% 2% 2%;
 }
 
 .featureTitleH1 {
-    opacity: 1;
     color: #b22222;
     text-align: center;
-    font-size: 6.5rem;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4.5rem;
     padding-bottom: 2%;
 }
 
 .featureH1 {
-    opacity: 1;
     color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration-color: none;
 }
 
 .feature-box {
+    border-radius: 50%;
     padding-bottom: 7%;
 }
 
@@ -187,16 +176,88 @@ video {
     width: 95%;
 }
 
-/* Review Section */
+.feature-picsPg {
+    border: 5px solid #555;
+    height: 555px;
+    width: 855px;
+}
 
-.review-section {
-    /* background-color: #DAD8D8; */
-    background-color: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
-    padding: 2%;
+/*Pricing Section*/
+
+.pricing-section {
+    color: #000000;
+    padding: 25px 100px 100px 100px;
+}
+
+.pricingH1 {
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4.5rem;
+    padding-top: 3%;
+}
+
+.price-text {
+    color: black;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-row {
+    margin: 2%;
+}
+
+.pricing-column {
+    padding: 3% 2% 5% 2%;
+}
+
+.hlh1{
+    color: yellow;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+.formbtn {
+    padding-bottom: 2%;
+}
+
+.btnOutl {
+    background-color: #b22222;
+    color: #fff;
+}
+
+.btnOutl:hover {
+    background-color: #b22222;
+    color: #000000;
+}
+
+.feature-itemspg {
+    margin: 200px;
+}
+
+.modal-title {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+.modal-body {
+    text-align: center;
+}
+
+#featurebCS {
+    border-radius: 2px;
+    border-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Footer Section */
 
-.footer-section {
+#footer {
+    color: #fff;
+    font-size: 1.rem;
     padding: 2%;
 }
