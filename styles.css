@@ -32,7 +32,7 @@ h4 {
 /* Title-Section*/
 
 .title-section {
-    background-color: #b22222;
+    background-color: #006847;
 }
 
 .h1-title {
@@ -40,9 +40,9 @@ h4 {
 }
 
 #h1-titleLg1 {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-size: 6.5rem;
-    color: #b22222;
+    color: #006847;
     opacity: 0;
 }
 
@@ -52,9 +52,9 @@ h4 {
 
 #h1-titleLg2 a {
     display: inline-block;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-size: 4.5rem;
-    background-color: #b22222;
+    background-color: #006847;
     color: #fff;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -74,8 +74,8 @@ h4 {
 
 /*H-Banner-Section*/
 
-.banner-section {
-    background-color: #b22222;
+/* .banner-section {
+    background-color:#006847;
     padding: 1%;
     text-align: left;
 }
@@ -84,8 +84,8 @@ h4 {
     opacity: 1;
     font-size: 4.5rem;
     color: #fff;
-    font-family: 'Fredoka One', cursive;
-}
+    font-family: 'Permanent Marker', cursive;
+} */
 
 /* TopHome Section */
 
@@ -97,7 +97,7 @@ h4 {
     font-family: 'Dancing Script', cursive;
     margin-bottom: 0rem;
     font-size: 4.2rem;
-    color: #b22222;
+    color: #fff;
     text-align: left;
     margin-left: 60px;
 }
@@ -124,7 +124,7 @@ h4 {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #b22222;
+    color: #006847;
 }
 
 .bar {
@@ -145,13 +145,13 @@ video {
 
 #features {
     color: #fff;
-    background-color: gray;
+    background-color: #8F8F8C;
     margin-top: 100px;
     padding: 5% 2% 2% 2%;
 }
 
 .featureTitleH1 {
-    color: #b22222;
+    color: #006847;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
     font-size: 4.5rem;
@@ -171,13 +171,13 @@ video {
 
 .feature-pics {
     padding 0% 5%;
-    border: 5px solid #555;
+    border: 5px solid #8F8F8C;
     height: 85%;
     width: 95%;
 }
 
 .feature-picsPg {
-    border: 5px solid #555;
+    border: 5px solid #8F8F8C;
     height: 555px;
     width: 855px;
 }
@@ -222,12 +222,12 @@ video {
 }
 
 .btnOutl {
-    background-color: #b22222;
+    background-color: #006847;
     color: #fff;
 }
 
 .btnOutl:hover {
-    background-color: #b22222;
+    background-color: #006847;
     color: #000000;
 }
 
@@ -260,4 +260,10 @@ video {
     color: #fff;
     font-size: 1.rem;
     padding: 2%;
+}
+
+.silver-sec{
+    background-image: linear-gradient(#006847, #111111);
+    /* background-color: #006847; */
+    color: #fff;
 }
