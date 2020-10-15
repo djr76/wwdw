@@ -96,10 +96,22 @@ h4 {
 .h2-title {
     font-family: 'Dancing Script', cursive;
     margin-bottom: 0rem;
-    font-size: 167px;
+    /* font-size: 67px; */
     color: #fff;
     text-align: left;
     margin-left: 60px;
+}
+
+@media (max-width: 500px) {
+    .h2-title {
+        font-size: 88px;
+    }
+}
+
+@media (min-width: 501px) {
+    .h2-title {
+        font-size: 67px;
+    }
 }
 
 .navbar {
@@ -107,6 +119,18 @@ h4 {
     font-family: 'EB Garamond', serif;
     align-content: right;
     text-align: right;
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 501px) {
+    .navbar {
+        font-size: 34px;
+    }
 }
 
 .navbar-nav>li {
@@ -210,12 +234,11 @@ video {
     padding: 3% 2% 5% 2%;
 }
 
-.hlh1{
+.hlh1 {
     color: yellow;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-family: 'Permanent Marker', cursive;
 }
-
 
 .formbtn {
     padding-bottom: 2%;
@@ -262,7 +285,7 @@ video {
     padding: 2%;
 }
 
-.silver-sec{
+.silver-sec {
     background-image: linear-gradient(#006847, #111111);
     /* background-color: #006847; */
     color: #fff;
