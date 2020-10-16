@@ -9,48 +9,45 @@ h4 {
     opacity: 0;
 }
 
-/* TopSocialMedia */
 
-.top-section {
+
+                    /*index.htlm*/
+/****************** Intro Section******************/
+
+.intro-section {
     margin: 5%;
     /* padding-top: 2%; */
     background-color: #000000;
 }
 
-.title {
+.intro {
     margin: auto;
     width: 100%;
 }
 
-.h1-title {
+.h1-intro {
     font-family: 'Dancing Script', cursive;
     margin-bottom: 0rem;
     font-size: 7.5rem;
     color: #fff;
 }
 
-/* Title-Section*/
-
-.title-section {
-    background-color: #006847;
-}
-
-.h1-title {
+.h1-intro {
     opacity: 0;
 }
 
-#h1-titleLg1 {
+#h1-introLg1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 6.5rem;
     color: #006847;
     opacity: 0;
 }
 
-#h1-titleLg2 {
+#h1-introLg2 {
     opacity: 0;
 }
 
-#h1-titleLg2 a {
+#h1-introLg2 a {
     display: inline-block;
     font-family: 'Permanent Marker', cursive;
     font-size: 4.5rem;
@@ -63,34 +60,28 @@ h4 {
     border-radius: 50%;
 }
 
-.h4-title {
+.h4-intro {
     font-family: 'Dancing Script', cursive;
     color: #fff;
 }
 
-.social-icon {
-    margin: 7px;
-}
 
-/*H-Banner-Section*/
 
-/* .banner-section {
-    background-color:#006847;
-    padding: 1%;
-    text-align: left;
-}
-
-.bannerH3 {
+/* .bannerH3 {
     opacity: 1;
     font-size: 4.5rem;
     color: #fff;
     font-family: 'Permanent Marker', cursive;
 } */
 
-/* TopHome Section */
 
-.topHome-section {
-    position: relative;
+
+                    /*home.html*/
+/*******************Title-Section********************/
+
+.title-section {
+    background-image: linear-gradient(#006847, #111111);
+    color: #fff;
 }
 
 .h2-title {
@@ -104,7 +95,7 @@ h4 {
 
 @media (max-width: 500px) {
     .h2-title {
-        font-size: 54px;
+        font-size: 48px;
     }
 }
 
@@ -113,6 +104,8 @@ h4 {
         font-size: 67px;
     }
 }
+
+/**************** Nav Section ******************/
 
 .navbar {
     font-size: 34px;
@@ -151,10 +144,13 @@ h4 {
     color: #006847;
 }
 
-.bar {
-    align-items;
-}
 
+
+/*****************Video Container****************/
+
+.vid-section {
+    position: relative;
+}
 video {
     position: relative;
     top: 0;
@@ -165,27 +161,29 @@ video {
     height: 100%;
 }
 
-/* Features Section */
+/************** Feature Section ******************/
 
-#features {
+.feature-section {
     color: #fff;
     background-color: #8F8F8C;
     margin-top: 100px;
-    padding: 5% 2% 2% 2%;
+    padding: 7% 2% 2% 2%;
 }
 
 .featureTitleH1 {
     color: #006847;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: 4.5rem;
-    padding-bottom: 2%;
+    font-size: 3.2rem;
+    padding-bottom: 5%;
 }
 
 .featureH1 {
     color: #fff;
     font-family: 'Permanent Marker', cursive;
     text-decoration-color: none;
+    font-size: 2.1rem;
+    padding-bottom: 2%;
 }
 
 .feature-box {
@@ -206,18 +204,18 @@ video {
     width: 855px;
 }
 
-/*Pricing Section*/
 
+/*******************Pricing Section************************/
 .pricing-section {
     color: #000000;
-    padding: 25px 100px 100px 100px;
+    padding: 7% 2% 2% 2%;
 }
 
 .pricingH1 {
     color: #fff;
     font-family: 'Permanent Marker', cursive;
-    font-size: 4.5rem;
-    padding-top: 3%;
+    font-size: 3.2rem;
+    padding-top: 5%;
 }
 
 .price-text {
@@ -280,13 +278,8 @@ video {
 /* Footer Section */
 
 #footer {
+    background-color: #8F8F8C;
     color: #fff;
-    font-size: 1.rem;
-    padding: 2%;
-}
-
-.silver-sec {
-    background-image: linear-gradient(#006847, #111111);
-    /* background-color: #006847; */
-    color: #fff;
+    font-size: 1.5rem;
+    padding: 1%;
 }
