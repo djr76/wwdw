@@ -29,7 +29,9 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
+    <!-- jQurery Scripts -->    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="video.js" charset="utf-8"></script>
 
 </header>
 
@@ -76,13 +78,22 @@
         </nav>
     </section>
 
-    <div class="video_container" .playback>
-        <video playsinline autoplay muted>
+    <div class="video-wrapper">
+        <video class="video" id="bVideo" muted loop>
             <source src="videos/5secs.mp4" type=video/mp4>
         </video>
+        <div id="playButton" class="playButton" onclick="playPause()"></div>
     </div>
+    
 
 
+
+        <!-- <div class="video-wrapper">
+          <video class="video" id="bVideo" loop controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+          </video>
+          <div id="playButton" class="playButton" onclick="playPause()"></div>
+        </div> -->
 
 
 
@@ -293,6 +304,6 @@
             <p>©Copyright 2020 Winnie's World LLC</p>
         </div>
     </footer>
-
+    <script src="video.js" charset="utf-8"></script>
 
 </body>
