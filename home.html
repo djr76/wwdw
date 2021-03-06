@@ -44,6 +44,7 @@
     </section>
 
 
+    <!-- Navbar Section -->
     <section class="nav-section">
         <div class="nav-container container">
             <nav class="navbar navbar-expand-lg navbar-dark bg-#08B0DD">
@@ -78,46 +79,20 @@
         </nav>
     </section>
 
+
+
+    <!-- Video Div -->
     <div class="video-wrapper">
-        <video class="video" id="bVideo" muted loop>
-            <source src="videos/5secs.mp4" type=video/mp4>
+        <video class="video" id="bVideo" controls>
+            <source src="videos/test_1.mp4" type=video/mp4>
         </video>
         <div id="playButton" class="playButton" onclick="playPause(); toggleFullscreen()"></div>
     </div>
 
 
-    <!-- <script>
-        /* Get the element you want displayed in fullscreen */
-        var elem = document.getElementById("myvideo");
-
-        /* Function to open fullscreen mode */
-        function openFullscreen() {
-            if (elem.requestFullscreen) {
-                elem.requestFullscreen();
-            } else if (elem.mozRequestFullScreen) { /* Firefox */
-                elem.mozRequestFullScreen();
-            } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-                elem.webkitRequestFullscreen();
-            } else if (elem.msRequestFullscreen) { /* IE/Edge */
-                elem.msRequestFullscreen();
-            }
-        }
-    </script> -->
-
-
-
-    <!-- <div class="video-wrapper">
-          <video class="video" id="bVideo" loop controls>
-            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-          </video>
-          <div id="playButton" class="playButton" onclick="playPause()"></div>
-        </div> -->
-
-
 
 
     <!-- Feature Section -->
-
     <section class="feature-section" id="features">
         <h1 class="featureTitleH1">Certified Training</h1>
         <div class="container-fluid">
@@ -170,7 +145,7 @@
                     <div class="card-body">
                         <h2 class="price-text">$40 / hr</h2>
                         <p>Must provide a safe location</p>
-                        <p>58 cents per mile outside 07083</p>
+                        <p>Additional 58 cents per mile</p>
                         <form class="formbtn">
                             <button class="btnOutl btn btn-lg btn-block btn-outline-dark"
                                 formaction="tel:908-456-0440">Call
@@ -186,39 +161,16 @@
             </div>
             <br>
 
-            <div class="pricing-column col-lg-4 md-6">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>You come to Me</h3>
-                    </div>
-                    <div class="card-body">
-                        <h2 class="price-text">$40 / hr</h2>
-                        <p>Equipment will be Provided</p>
-                        <p>You will need bring a Training Mat</p>
-                        <form class="formbtn">
-                            <button class="btn btn-lg btn-block btn-dark" formaction="tel:314-330-1290">Call or
-                                Text</button>
-                        </form>
-                        <form class="formbtn">
-                            <button class="btnOutl btn btn-lg btn-block btn-outline-dark"
-                                formaction="mailto:winniem142@yahoo.com?subject=feedback">Email</button>
-                        </form>
-                    </div>
-                    <br>
-                </div>
-            </div>
-            <br>
-
             <div class="h pricing-column col-lg-4 md-6">
                 <div id="highlightcard" class="card">
                     <div class="card-header">
-                        <h3>Virtual Training</h3>
+                        <h3>ZOOM Training</h3>
                         <h1 class="hlh1">COMING SOON!</h1>
                     </div>
                     <div class="card-body">
                         <h2 class="price-text">$30 / hr</h2>
+                        <p>It's a Virtual World!</p>
                         <p>Discount Pricing</p>
-                        <p>Must have required Software</p>
                         <form class="formbtn">
                             <button class="btnOutl btn btn-lg btn-block btn-outline-dark"
                                 formaction="tel:314-330-1290">Call
@@ -230,6 +182,29 @@
                                 formaction="mailto:winniem142@yahoo.com?subject=feedback">Email</button>
                         </form>
                     </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="pricing-column col-lg-4 md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Specialized written workouts</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2 class="price-text">$20 / workout</h2>
+                        <p>I write out weekly workouts tailored to your needs</p>
+                        <p>You do your workouts when you are able</p>
+                        <form class="formbtn">
+                            <button class="btn btn-lg btn-block btn-dark" formaction="tel:314-330-1290">Call or
+                                Text</button>
+                        </form>
+                        <form class="formbtn">
+                            <button class="btnOutl btn btn-lg btn-block btn-outline-dark"
+                                formaction="mailto:winniem142@yahoo.com?subject=feedback">Email</button>
+                        </form>
+                    </div>
+                    <br>
                 </div>
             </div>
         </div>
@@ -316,10 +291,9 @@
 
 
     <!-- Footer -->
-
     <footer id="footer">
         <div class="container-fluid">
-            <p>©Copyright 2020 Winnie's World LLC</p>
+            <p>©Copyright 2021 Winnie's World LLC</p>
         </div>
     </footer>
     <script src="video.js" charset="utf-8"></script>
