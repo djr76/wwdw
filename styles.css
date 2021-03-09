@@ -97,7 +97,7 @@ h4 {
 
 @media (max-width: 500px) {
     .h2-title {
-        font-size: 65px;
+        font-size: 55px;
     }
 }
 
@@ -204,6 +204,18 @@ h4 {
     font-family: 'Permanent Marker', cursive;
     font-size: 3.2rem;
     padding-bottom: 5%;
+}
+
+@media (max-width: 500px) {
+    .featureTitleH1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 501px) {
+    .h2-title {
+        font-size: 75px;
+    }
 }
 
 .featureH1 {
