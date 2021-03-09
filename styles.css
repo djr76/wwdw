@@ -16,7 +16,7 @@ h4 {
 .intro-section {
     background-color: #000000;
     text-align: center;
-    padding: 3%;
+    padding: 2%;
 }
 
 .vertical-center {
@@ -150,6 +150,7 @@ h4 {
 
 .video-wrapper {
     position: relative;
+    margin-bottom: 2%;
 }
 
 .video {
@@ -194,7 +195,6 @@ h4 {
 .feature-section {
     color: #fff;
     background-color: #8F8F8C;
-    margin-top: 100px;
     padding: 7% 2% 2% 2%;
 }
 
