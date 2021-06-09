@@ -30,6 +30,7 @@
     crossorigin="anonymous"></script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="audio.js" charset="utf-8"></script>
   <script>
     $(document).ready(function () {
       $("#h1-intro1").delay(500).animate({
@@ -51,6 +52,12 @@
       }, 1000);
     });
   </script>
+
+  <script type="text/javascript">
+    window.onload = function () {
+      document.getElementById("my_audio").play();
+    }
+  </script>
 </head>
 
 <body>
@@ -58,26 +65,37 @@
 
 
   <!--Intro section -->
-  <section class="intro-section">
+  <!-- <section class="intro-section">
     <div class="jumbotron vertical-center">
-      <div class="container-fluid">
+      <div style="vertical-align: middle;"  class="container-fluid">
         <div class="intro row">
-          <div class="col-xl-8">
-            <img class="introImg" src="images/intropic.jpg" alt="">
+          <div class="colIntro col-xl-8">
+            <div class="fade-in">
+            <img id="introImg" src="images/ww.jpg" alt="">
           </div>
-          <div class="col-xl-4">
+          </div>
+          <div class="colIntro col-xl-4">
             <div id="div4" class="center-intro">
               <h1 id="h1-intro1" class="h1-intro">Winnie's</h1>
               <h1 id="h1-intro2" class="h1-intro">World</h1>
-              <h4 class="h4-intro">dot</h4>
-              <h1 id="h1-introLg1">WORK</h1>
-              <h1 id="h1-introLg2"><a href="home.html" style="text-decoration: none;">Let's GO!</a></h1>
-            </div>
+             <h4 class="h4-intro">dot</h4>
+              <h1 id="h1-introLg1">WORK</h1> -->
+  <!-- <h1 id="h1-introLg2"><a href="home.html" style="text-decoration: none;">Let's WORK!</a></h1> -->
+  <!-- </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+
+
+  <audio src="videos/ES_A.mp3" id="my_audio" loop="loop" autoplay="autoplay">
+
+  </audio>
+
+  <div class="fade-in">
+    <a href="home.html"><img id="introImg" src="images/ww.jpg" alt=""></a>
+  </div>
 
 </body>
 
