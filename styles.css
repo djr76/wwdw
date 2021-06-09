@@ -131,18 +131,19 @@ h4 {
     margin-bottom: 0rem;
     color: #fff;
     text-align: left;
-    margin-left: 60px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 @media (max-width: 500px) {
     .h2-title {
-        font-size: 55px;
+        font-size: 3.5rem;
     }
 }
 
 @media (min-width: 501px) {
     .h2-title {
-        font-size: 90px;
+        font-size: 5.6rem;
     }
 }
 
@@ -242,19 +243,18 @@ h4 {
     color: #00833E;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    font-size: 3.2rem;
     padding-bottom: 5%;
 }
 
 @media (max-width: 500px) {
     .featureTitleH1 {
-        font-size: 45px;
+        font-size: 2.5rem;
     }
 }
 
 @media (min-width: 501px) {
     .featureTitleH1 {
-        font-size: 51px;
+        font-size: 3.1rem;
     }
 }
 
@@ -272,10 +272,10 @@ h4 {
 }
 
 .feature-pics {
-    padding 3% 5%;
+    padding 5% 5%;
     border: 5px solid #8F8F8C;
-    height: 85%;
-    width: 95%;
+    height: 75%;
+    width: 75%;
 }
 
 .feature-picsPg {
