@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Winnie's World</title>
 
   <link
@@ -31,7 +32,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="audio.js" charset="utf-8"></script>
-  <script>
+  <script>y
     $(document).ready(function () {
       $("#h1-intro1").delay(500).animate({
         'opacity': '1'
@@ -53,11 +54,11 @@
     });
   </script>
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     window.onload = function () {
       document.getElementById("my_audio").play();
     }
-  </script>
+  </script> -->
 </head>
 
 <body>
@@ -92,8 +93,13 @@
   <audio src="videos/ES_A.mp3" id="my_audio" loop="loop" autoplay="autoplay">
   </audio>
 
-  <div class="fade-in">
-    <a href="home.html"><img id="introImg" src="images/ww.jpg" alt=""></a>
+
+  <div class="jumbo jumbotron my-auto">
+    <div class="fade-in">
+    <a href="home.html"><img src="images/ww.jpg" class="img-fluid" alt="Responsive image"></a>
+  </div>
+</div>
+
   </div>
 
 </body>
