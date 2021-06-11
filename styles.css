@@ -1,4 +1,5 @@
 body {
+    height: 100%;
     background-color: #000000;
     font-family: 'Mate SC', serif;
     text-align: center;
@@ -9,9 +10,15 @@ h4 {
     opacity: 0;
 }
 
+
+
 /*********************index.htlm******************/
 
 /****************** Intro Section******************/
+
+.container{
+    background-color: #000000;
+}
 
 .intro-section {
     background-color: #000000;
@@ -114,6 +121,7 @@ h4 {
 .jumbo{
     background-color: black;
 }
+
 
 /*********************home.htlm******************/
 
@@ -258,9 +266,9 @@ h4 {
 
 .featureH1 {
     color: #fff;
-    font-family: 'Permanent Marker', cursive;
-    text-decoration: underline;
-    font-size: 2.1rem;
+    font-family: 'Mate SC', serif;
+    text-decoration: none;
+    font-size: 1.8rem;
     padding-bottom: 10%;
 }
 
@@ -365,14 +373,17 @@ h4 {
 }
 
 
-
+.absolute{
+    position: absolute;
+}
 
 .fade-in {
-    animation: fadeIn ease 15s;
-    -webkit-animation: fadeIn ease 15s;
-    -moz-animation: fadeIn ease 15s;
-    -o-animation: fadeIn ease 15s;
-    -ms-animation: fadeIn ease 15s;
+    /* position: absolute; */
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
   }@keyframes fadeIn {
     0% {
       opacity:0;
@@ -417,3 +428,6 @@ h4 {
       opacity:1;
   }
 }
+
+
+
