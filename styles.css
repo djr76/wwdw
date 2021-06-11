@@ -197,7 +197,7 @@ h4 {
 
 .video-wrapper {
     position: relative;
-    margin-bottom: 2%;
+    margin-bottom: 7%;
 }
 
 .video {
@@ -249,7 +249,7 @@ h4 {
     color: #00833E;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 
 @media (max-width: 500px) {
